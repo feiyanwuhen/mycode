@@ -1,0 +1,24 @@
+说明：
+spring boot 项目 ：
+启动方式：进入到项目目录下执行  ./mvnw spring-boot:run
+
+其中 mvnw是maven warpper，它的原理是在maven-wrapper.properties
+文件中记录你要使用的maven版本，当用户执行mvnw clean命令时，
+发现当前用户的maven版本和期望的版本不一致，那么就下载期望的版本。
+mvnw的生成方式:
+#表示我们期望使用的maven的版本为3.3.3
+mvn -N io.takari:maven:wrapper -Dmaven=3.3.3
+
+前端项目执行说明：
+执行并指定端口号，其中需要安装Spring Boot CLI
+spring run app.groovy -- --server.port=9000
+
+
+项目后期需要做的：
+1、优化界面和交换
+2、从网络爬取数据并导入到数据库中
+3、部署阿里云并使项目正式运行起来
+4、百度推广项目
+
+
+
